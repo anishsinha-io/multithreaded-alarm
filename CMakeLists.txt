@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.20)
+project(hq_alarm C)
+set(CMAKE_C_STANDARD 99)
+add_subdirectory(heap)
+add_subdirectory(alarm)
+add_executable(hq_alarm main.c errors.h)
+target_link_libraries(hq_alarm PUBLIC heap alarm)
