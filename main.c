@@ -54,55 +54,7 @@ void *alarm_thread(void *arg) {
     }
 }
 
-int main() {
-    // alarm_t *a1  = make_alarm(5, "a1");
-    // alarm_t *a2  = make_alarm(3, "a2");
-    // alarm_t *a3  = make_alarm(19, "a3");
-    // alarm_t *a4  = make_alarm(6, "a4");
-    // alarm_t *a5  = make_alarm(8, "a5");
-    // alarm_t *a6  = make_alarm(13, "a6");
-    // alarm_t *a7  = make_alarm(24, "a7");
-    // alarm_t *a8  = make_alarm(12, "a8");
-    // alarm_t *a9  = make_alarm(1, "a9");
-    // alarm_t *a10 = make_alarm(9, "a10");
-    // alarm_t *a11 = make_alarm(2, "a11");
-    // alarm_t *a12 = make_alarm(7, "a12");
-    // alarm_t *a13 = make_alarm(22, "a13");
-    // alarm_t *a14 = make_alarm(44, "a14");
-    // alarm_t *a15 = make_alarm(17, "a15");
-    // alarm_t *a16 = make_alarm(19, "a16");
-    // alarm_t *a17 = make_alarm(27, "a17");
-    // alarm_t *a18 = make_alarm(31, "a18");
-    //
-    // binary_heap_t *alarm_queue = malloc(sizeof(binary_heap_t));
-    // heap(alarm_queue, sizeof(alarm_t), compare_alarm, print_alarm);
-    // heap_insert(alarm_queue, a1);
-    // heap_insert(alarm_queue, a2);
-    // heap_insert(alarm_queue, a3);
-    // heap_insert(alarm_queue, a4);
-    // heap_insert(alarm_queue, a5);
-    // heap_insert(alarm_queue, a6);
-    // heap_insert(alarm_queue, a7);
-    // heap_insert(alarm_queue, a8);
-    // heap_insert(alarm_queue, a9);
-    // heap_insert(alarm_queue, a10);
-    // heap_insert(alarm_queue, a11);
-    // heap_insert(alarm_queue, a12);
-    // heap_insert(alarm_queue, a13);
-    // heap_insert(alarm_queue, a14);
-    // heap_insert(alarm_queue, a15);
-    // heap_insert(alarm_queue, a16);
-    // heap_insert(alarm_queue, a17);
-    // heap_insert(alarm_queue, a18);
-    // print_heap(alarm_queue);
-    // printf("\n");
-    // // printf("%d\n", alarm_queue->size);
-    // alarm_t *buf = malloc(sizeof(alarm_t));
-    // heap_delete(alarm_queue, buf);
-    // // printf("%d\n", buf->seconds);
-    // // printf("%s\n", buf->message);
-    // print_heap(alarm_queue);
-    // printf("\n");
+int main(int argc, char **argv) {
 
     int       status;
     char      line[128];
